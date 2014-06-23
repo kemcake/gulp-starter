@@ -25,6 +25,9 @@
       ]
     }
   },
+  "scripts":{ 
+    "postinstall" : "bower install"
+  },
   "devDependencies": {
     "browserify-shim": "~3.4.1",
     "browserify": "~3.36.0",
